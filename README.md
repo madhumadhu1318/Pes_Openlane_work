@@ -6,7 +6,8 @@ OpenLane is an automated RTL to GDSII flow based on several components including
 You can check out the documentation, including in-depth guides and reference manuals at [ReadTheDocs](https://openlane.readthedocs.io/).
 
 
-<img src="https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/b7591af9-cd28-4e59-abd4-c6a487935097" width=800 >
+![1](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/abd21a4e-c17c-4566-8e01-1af759293d0f)
+
 
 
  # COURSE 
@@ -19,16 +20,19 @@ You can check out the documentation, including in-depth guides and reference man
 - Generally an Aurdino board or an FPGA board consists of an chip or processor inside it.
 - The internal veiw of chip will be as below
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/e360670e-f8d1-4ad0-89c5-5610e73a73e6)
+![2](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/49faafd4-ae04-4fc1-aa30-0a42aeb8ce1f)
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/903374bb-7f68-429a-868f-f87c228b0d3c)
+
+![3](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/13e4e744-6856-4c97-b971-bd7565a6be91)
+
 
 
 RISC-V is an open standard instruction set architecture based on established reduced instruction set computer principles. Unlike most other ISA designs, RISC-V is provided under royalty-free open-source licenses. 
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/f911d452-d9a4-4226-976b-342f1c638536)
+![4](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/52c420a4-edb0-4f8f-8267-dd773d2ad9d9)
+
 
 
 
@@ -42,12 +46,14 @@ RISC-V is an open standard instruction set architecture based on established red
    - EDA Tools
    - PDK Data
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/aa667615-e543-40ba-adbd-77f215cb9ccf)
+![5](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/d9a40659-2d69-4f96-8db7-48c02d3cc8f4)
+
       
 
   - Open source digital ASIC design
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/e8cdc897-6abe-422d-9e22-77ebbcf20177)
+![6](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/16f9378c-de24-4883-ae4b-34566fa1b90e)
+
 
 - What is PDK..?
   - Process Design Kit (PDK) Collection of files used to model a fabrication process for the EDA tools used to design an IC.
@@ -60,7 +66,8 @@ RISC-V is an open standard instruction set architecture based on established red
  
 ## b) Simplified RTL2GDS Flow**
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/3009c334-659e-4d09-89da-0314b20ba1db)
+![7](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/a31b095c-708c-4e31-af25-f036599425e7)
+
 
          1. Synthesis
          2. Floor planning and Power planning
@@ -76,7 +83,7 @@ RISC-V is an open standard instruction set architecture based on established red
    #### OPENLANE was started as an open-souce flow for a true Open source Tape-out experiment,
    #### STRIVES is a family of open everything socs.
 
-   ![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/112a893f-0072-4018-88fa-10d6b07258ce)
+![8](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/700a23d7-6d79-4067-a944-ff56578ed7f6)
 
 
    #### Goal of Openlane asic flow is :
@@ -98,7 +105,7 @@ RISC-V is an open standard instruction set architecture based on established red
 ## d) Introduction to Openlane Detailed ASIC flow design
 
 
-   ![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/2d90d2e2-ba8a-48e9-bca7-b22d68195acc)
+![9](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/ea74855f-0a47-47ac-957d-01342f1da0da)
 
    
 Here's a detailed ASIC design flow using OpenLane and the associated tools and software:
@@ -174,11 +181,12 @@ Here's a detailed ASIC design flow using OpenLane and the associated tools and s
 
 
 #### Synthis exporation
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/cebdad09-b756-41b7-978a-5207cda487f2)
+![10](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/7685d19b-44ed-4824-aa77-ee44a81af1bd)
 
 
 #### Design exploration
-  ![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/7d1b82d0-c25e-499d-a499-b265da46197a)
+![11](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/d0cc951d-023f-48d5-8e72-1483ed3e91ab)
+
 
 
 # 3) Open- Source EDA tools
@@ -193,7 +201,8 @@ Here's a detailed ASIC design flow using OpenLane and the associated tools and s
    - docker
    - ./flow.tcl -interactive
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/c888176e-1f70-442f-9cf7-84e865898911)
+![12](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/54f4a77d-6bfc-44ab-bd95-33ad78c536cd)
+
 
 
 #### Design Preparation step
@@ -202,17 +211,20 @@ Here's a detailed ASIC design flow using OpenLane and the associated tools and s
     - package require openlane 0.9
     - prep -design picorv32a
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/cc01cf5a-a7d6-44b7-86a5-065977e2eafb)
+![13](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/92078eac-752d-43b2-92e6-d17f11b965e3)
+
 
 
 #### Review files after design synthsis and run synthsis
 
     - run_synthesis
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/0e4690bd-42b7-4824-96e3-c6879a5e5654)
+![14](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/3d076fba-1703-4e2d-aba7-3c05f275568c)
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/550268eb-a857-49bb-89ba-5a99a0ab0262)
+
+![15](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/3665e66b-190a-4787-902a-eee3cd509d5f)
+
 
 
    - Here the counter d flipflop is **1613**
@@ -225,7 +237,7 @@ Here's a detailed ASIC design flow using OpenLane and the associated tools and s
 
 https://github.com/efabless/openlane
 
-[Back to COURSE](https://github.com/Vinodkumar8318/Pes_Openlane_work/tree/main#course)
+[Back to COURSE](https://github.com/madhumadhu118/Pes_Openlane_work/tree/main#course)
 
 </details>
 
@@ -243,7 +255,8 @@ https://github.com/efabless/openlane
 
 ## L1) Utilization Factor and Aspect ratio
 
-  ![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/3aef58ab-6ea3-4aec-9ea3-a1c5ed63b771)
+ ![16](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/01ea862d-ce04-4f90-9137-cb29b1cd51da)
+
 
     - Defining the width and height of the core and Die
     - Consider a netlist with 2 FF and 2 gates with the connections shown below
@@ -251,12 +264,14 @@ https://github.com/efabless/openlane
 
 **STEP-1** Make the gates as a Squared box 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/4f09822c-6af6-42c8-a712-5ae75beed286)
+![17](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/0c4e9454-17e5-4bfb-bf30-542e549c7c40)
+
 
 
 **STEP-2** Find out the dimensions of the core and Die ( Dimensions of the standard cells )
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/3e2a0161-d1df-470b-a65f-0163083508ad)
+![18](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/3d313edf-b139-45b0-9d65-a3dac8e35287)
+
 
 
  #### For example 
@@ -274,7 +289,8 @@ https://github.com/efabless/openlane
 
 ## L2) Pre placed cells
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/a005bcbc-a546-4648-b8a5-0e23ad8c1944)
+![19](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/dcd78a1a-8a56-457b-b9e7-9d9ad06e7b42)
+
 
   - Conisder a combinational block -> Gate level diagram.
   - Seperate that gate level diagram into two blocks.
@@ -287,7 +303,8 @@ https://github.com/efabless/openlane
 
 ## L3) Decoupling Capacitors
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/1892d647-2b21-4e6a-8030-66ce9364f7cc)
+![20](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/7ceb241a-fbfb-4099-8d80-d402bae5a65e)
+
 
   - For any signal to be considered as a Logic 0 and Logic 1, It should be within the NM range ( Either NML or NMH )
   - The area between the NML and NMH is called undefined area
@@ -299,7 +316,7 @@ https://github.com/efabless/openlane
 
 ## L4) Power Planning
 
-![Screenshot from 2023-09-14 12-58-34](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/ff16ed45-9495-49a6-b260-d3d194323738)
+![21](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/10ea1644-58d7-47f6-a4fc-16b19251c8c3)
 
   - Insted of using individual VDD and VSS for multiple cells in a Block.
   - Suppose if there are four cells in a Block , Each cell having seperate VDD and VSS are called as **Power Planning**
@@ -309,7 +326,7 @@ https://github.com/efabless/openlane
 
 ## L5) Pin placement and Logical cell placement Blockage
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/71f697d9-472c-4e79-a502-2f7001500a86)
+![22](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/8bc5a0a7-547f-4540-972a-52ac2e3b48a5)
 
   - Here consider a 4 set of circuts with input, clk and output,
   - Considering all 4 circuits together and placing on a chip in such a way that INPUTS should be at one side and OUTPUT should be at one side which helps us to make the connections easily.
@@ -319,12 +336,13 @@ https://github.com/efabless/openlane
 
 **Pin Placement**
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/e9a4597c-0d8b-4c75-a8a2-051b0ecb81c7)
+![23](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/44840538-b028-44c3-8844-1cdd21fd52b5)
 
 
 **Logical cell placement Blockage**
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/cf98ef58-1fb1-4de8-9767-064c70428a9c)
+![24](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/b152b3d2-8d85-4766-9c58-4ad1a573bf7c)
+
 
 
 
@@ -334,20 +352,24 @@ https://github.com/efabless/openlane
 
       - These are the defalt Floorplans 
  
- ![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/490bb702-b125-4a02-8b91-f3b190a4580b)
+![25](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/c5b57062-cee9-44d7-adeb-e697c0749b59)
 
 
- ![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/7d421dc9-ea0c-4250-ae6f-2d8598717d3b)
+
+![26](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/b13257b7-4c7b-44ce-8419-64108a03f598)
 
 
- ![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/e080bb6a-bb17-4001-a3f2-0774536b20b4)
+
+![27](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/b6e1338e-b036-4258-93b3-d0b8fdf9a8a3)
+
 
 
 ## L7)
 
               - In the openlane shell
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/382fb424-a1f7-46a5-981d-bf0aef5ba065)
+![28](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/7cd543b6-10fb-454b-8143-a81d7666c587)
+
               
               - To open the Floorplan we go to the required directory that is
                    > vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/11-09_15-36/results/floorplan
@@ -357,25 +379,29 @@ https://github.com/efabless/openlane
 
               - The following layout is displayed
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/6622214d-dac3-4cd8-b8d2-f3f30c095247)
+![29](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/274dcaf4-4e25-47ff-8bec-3ad19090ccca)
+
 
               - We can press 's' and then 'v' to align the design to the center of the screen.
 
               - We can right click on the mouse and pess 'z' to zoom into a desired part.
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/8fb90206-cd3c-4177-9936-09885389bc84)
+![30](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/da1a8425-fe36-4584-8d84-2ecd249335bd)
+
 
               - We can check the details of the ports as follows
               - Hover over a port with your crosshair and press 's' on your keyboard
               - Now open the tkcon command window and type ```what```.
               - This will show you the details of the selected port.
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/fbb5a5da-ce91-41fa-a23b-21eda8b68d5c)
+![31](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/2cef8a3f-8d15-4a0c-b962-8e35f4869e12)
+
              
               - If we zoom in a little more, we can see the tap cells.
               - They are present to prevent latch up conditions which occur in the CMOS devices
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/540cc442-61e7-41f9-8075-276feb7f048f)
+![32](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/9b9a7ddc-898a-4f86-a18c-e14e281c7d1c)
+
 
               - These are the standard cells that are used in the design
 
@@ -396,10 +422,12 @@ https://github.com/efabless/openlane
           > Performes Faster
        - Once we have a Physical veiw of all cells, It is placed on the Floorplan according to the Netlist.  [image 2]
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/42d823d6-4c27-4631-805e-7d8d972ab95a)
+![33](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/e30bc272-93e1-4d95-97e8-1913e2248067)
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/f7ff1136-48b7-4e0f-81ea-6a4cbeba3222)
+
+![34](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/14cac705-6ae3-4766-a76c-da87cbda046c)
+
 
 
 
@@ -410,10 +438,11 @@ https://github.com/efabless/openlane
         - Depending on the Capacitance and how far the cells are from input and output, Some **Buffers** are added in order to reduce the Wirelength and also to get a complete signal without any             lossses of signal ( but in cost of Area which can be minimized later )
     
           
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/59d2d9da-75ca-4615-88e4-f0c0c9878509)
+![35](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/543a4de9-2c38-49f9-977a-046b7dc461cf)
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/efe1ae28-f0bd-4df2-aec4-b2316b7e3857)
+
+![36](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/fecf815d-dc38-4b80-97cb-a98f2670d008)
 
 
 
@@ -424,7 +453,8 @@ https://github.com/efabless/openlane
         - The collection of all the standard cells are placed is one area which is referred as **Library**
 
         
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/2c0629b1-a07e-45d8-a58a-3e865f7ff28f)
+![37](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/9ecf3455-574c-4986-9c9c-a0169297b30e)
+
 
 
 
@@ -433,11 +463,13 @@ https://github.com/efabless/openlane
                    > run_placement
           - In the OpenLANE shell.
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/18162a42-f288-4007-baba-6f759a9a6184)
+![38](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/97451e4c-529e-45e3-b5ce-c5c360714c3f)
+
 
           - This is the result displayed. As we can see the '/picorv32a.placement.def' file is read.
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/5c9dc6ed-fc8e-4f8f-80c8-922a4f749991)
+![39](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/ab9b5d46-5e6a-4905-b81e-6837ad84325f)
+
 
           - We move one directory up from the 'floorplan' folder using
                    > cd ../placement/
@@ -445,12 +477,12 @@ https://github.com/efabless/openlane
           - To view the placement design we use the command
                    > magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/a2807440-c80b-43c3-967d-e2c113fb44a4)
+![40](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/9a99c6bb-1247-4dc1-9719-c1615805f790)
 
           - The above is displayed.
           - All these standard cells were present at the initial layout of the floorplan.
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/c4f005a1-0ac8-4693-bf09-d920692c4f09)
+![41](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/4e99df22-0554-4f13-82ee-0d52a41d7168)
 
           - If we zoom in we can see the placement of the standard cells in the standard cell rows.
 
@@ -505,13 +537,14 @@ https://github.com/efabless/openlane
            - Feed in all the 1 to 8 steps to a configuration file ( GUNA )
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/0628a4c9-b6ec-4321-8d47-738c8892cd6a)
+![42](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/a27f76f6-d0ef-4f2e-9f3c-30dadb0d1f87)
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/0f0ba7e0-0b4c-4f67-87d7-b4256aaecca4)
+![43](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/f3d1b973-7a9e-46f9-8e42-6f396fb463c5)
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/64a04551-d324-4641-ae5b-d285bfc35305)
+
+![44](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/e9fe2fcd-a830-4c27-a439-f44470752fb9)
 
 
 
@@ -528,10 +561,12 @@ https://github.com/efabless/openlane
           - out_rise_thr
           - out_fall_thr
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/785c4894-f56c-49f5-8967-64d8186ea5b3)
+![45](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/19c75bd4-da99-4a17-b880-5b3ffe579611)
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/7059e853-ae6d-4d3e-983d-6d60f1643bbe)
+
+![46](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/fcc57079-cef6-4bf0-9960-b4e924d7027c)
+
 
 
          
@@ -546,10 +581,11 @@ The time difference between when the transitional input reaches 50% of its final
     Propagation delay = time(out_fall_thr)-time(in_rise_thr)
 
 ```
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/ad875fdb-f7fb-42e2-967e-307273173e1c)
+![47](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/0745b0bc-9233-467c-98c9-d8261176965b)
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/00e224cb-ad87-4d70-b4a5-ff520bede55d)
+![48](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/dd76f907-75b2-41f2-9517-b81b6555ef06)
+
 
 
 **Transition Time**
@@ -563,11 +599,11 @@ Rise transition time = time(slew_high_rise_thr) - time (slew_low_rise_thr)
 Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
 ```
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/0bc19251-9424-4e08-a7f4-c5fae5bc5072)
+![49](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/dfabfbf4-1bd8-43ed-82a7-493369bc5808)
 
 
 
-[Back to COURSE](https://github.com/Vinodkumar8318/Pes_Openlane_work/tree/main#course)
+[Back to COURSE](https://github.com/madhumadhu1318/Pes_Openlane_work/tree/main#course)
 
 </details>
 <details>
@@ -586,7 +622,7 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
              - > Name the nodes
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/954992d0-3bc7-4472-9da6-4d421e22b52b)
+![50](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/ed38e36d-3b27-4ff9-9adf-767ece976831)
 
 
              SPICE DECK = ***Model description***
@@ -608,19 +644,22 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
                           .end
                           
                           
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/a0d82108-57f3-4a8e-b48d-738fd9455ed1)
+![51](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/00dd3e37-723f-4c12-acc0-e39fe37fbe3c)
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/0da222fd-69e1-4669-b815-c301ba82f4d0)
+
+![52](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/06a99faa-e0bd-41b7-96ba-9ef2d216e72f)
+
  
    
    ### L3) Spice simulation lab for cmos inverter
                   - Spice simulation for a particular specification
-                  
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/6e63ed80-6cad-4f4a-9602-34ded2360357)
+
+![53](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/30410f56-0989-4e15-9b47-902c727b2057)
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/d679273d-4f95-4d47-bab0-1246d5ffe000)
+![54](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/b9e11fe3-81e7-45fd-a5d3-73d5e81039da)
+
 
 
    ### L4) Switchin threshold vm
@@ -628,10 +667,12 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
             - These waveforms tell us that the CMOS is a very robust device. The characteristics of the CMOS are maintained across a variety of sizes.
             - The arrow is pointing to the point where 'Vin = Vout'.
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/ceeebacd-4ae3-475b-af6e-d4e4570e9566)
+![55](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/b797dfe1-4856-4cce-9113-29a910541441)
+
             - Above graph gives details on each point and its significance
             
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/8373d80c-5fe4-4bcf-b35f-c218f83439bb)
+![56](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/4d248083-69ea-4c8f-9960-0539097248b9)
+
 
 
          - 
@@ -652,7 +693,8 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
                   ```  
              in the follwoing directory shown in the figure
 
-![image](https://github.com/AniruddhaN2203/pes_pd/assets/142299140/c0cefbbc-dfd8-40b0-859e-3603e5589416)
+![57](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/52248a0a-e99f-4749-8c53-84f4aa90970f)
+
 
 
 
@@ -670,10 +712,11 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
                      - Step6 -> Placed in an oxidation furnance
                      - Step7 -> Isolation area will be created This process is called as LOCUS.
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/bed3cb8f-55d9-43bb-900c-f99eff654df9)
+![58](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/7c3abbba-f06d-4fbd-a6f7-8bdcc9ca70f6)
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/efe68587-e3f3-407b-ac55-4e7a50367459)
+
+![59](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/6f164cf2-6c53-4cbc-a7a3-51c2fdc8fa58)
 
 
 ### L2) Formation of N-well and P-well
@@ -686,10 +729,12 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
                    - Step7 -> Take the complete structure into High Temperature Furnace
                    - Step8 -> This diffuses the wells and make proper n-well and p-well, This is called as twin tub process
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/d83b05f8-adc1-41d4-b455-bf37e3667804)
+![60](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/c1b40fea-c4ca-4908-95e0-1d9f364ed34c)
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/e56c93fe-5afe-4ac4-b15e-887f9c99874d)
+
+![61](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/558e401a-7916-422e-af6e-c08967559833)
+
 
 
 ### L3) Formation of gate terminal
@@ -699,10 +744,10 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
                    - Step4 -> Etching to create gates
                    - Step5 -> Doping the substrate and insulating the gates.
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/52c6eeaa-9910-453b-b130-3cab4b728f1a)
+![62](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/64326d5f-bd3d-4e1e-961b-824909c9aa73)
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/c37e64fa-802e-4db3-8bb0-55952be93be4)
+![63](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/06a33430-fc6e-4eef-886b-965c840dab53)
 
 
 ### L4) Ligtly dopped drain (LDD) formation
@@ -711,10 +756,12 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
                    - Doing both  n+ impantation and p+ implantation.
                    - It involves plasma etching here
                    
- ![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/34f83ae3-dea6-4e6d-b049-46d2c3028048)
+![64](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/f89ae9a6-80ec-4293-9a2b-6766aedb963b)
 
 
- ![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/62580c2e-af68-408f-8bfa-347d043ab5fe)
+
+![65](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/3577c510-5385-409b-ad50-121145b19513)
+
 
                             
 ### L5) Source and drain formation
@@ -723,10 +770,11 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
                   - Here the source and drain are done by using ARSENIC method
                   - High temperature annealing is performed.
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/79dd4508-6eca-4f86-bd6f-5c1240e692bf)
+![66](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/40f02ef1-f824-4421-8456-dd6e58a05482)
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/3d2cc62f-0453-4712-9940-1b7215b5038d)
+![67](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/4904426d-6672-4765-a21f-d94ab0a13564)
+
 
 
 ### L6) Local interconnect formation
@@ -736,10 +784,12 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
                       - Step3 -> TiSi2 contacts are formed.  TiN is also formed used for local communication. 
                       - Step4 -> TiN is etched using RCA cleaning.
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/b1d69f8c-29cf-4d31-b1e0-28116431d9d5)
+![68](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/0206e869-b7f1-4e9a-802e-3d1357a8f754)
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/9d82ed40-e8b0-4d33-ba28-4c4a654c5084)
+
+![69](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/e0b0688c-da4f-44b7-93d2-2566a2b5a63d)
+
                       
 ### L7) Higher level metal formation
                  - Step1 -> Forming contacts and interconnects locally involves depositing a dielectric material like silicon dioxide
@@ -749,26 +799,30 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
                  - Step5 -> Filling with a conductor (e.g., aluminum or copper) using chemical vapor deposition (CVD)
                  - Step6 -> And then planarizing through chemical-mechanical polishing (CMP).
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/25b8dee5-80c4-4f95-983e-cf41e29050c4)
+![70](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/c213585f-d7f8-48af-ae60-eb18ca45754d)
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/0fe538d7-15d7-4334-b1ae-80112146cf3c)
+
+![71](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/969f5392-509d-4a1e-9372-0278fd34ae04)
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/cdc36969-8abe-473b-bbea-7fbf91b0a7e2)
+![72](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/85ef95d2-1913-43eb-bfbc-d8aabc0d03d7)
+
 
 
 ### L8) Lab introduction to Sky130 basic layers layout and LEF using inverter
 
                 - Now let us look at the layout of a CMOS inverter. To open this we type the command
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/ffaeccd3-bc9d-4169-a71c-bd49ac46d11f)
+![73](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/7da13277-bc74-4bdd-8c36-5728226803d2)
+
 
                 - Now run the command 
                      > magic -T sky130A.tech sky130_inv.mag &
                 - The following layout will be displayed.
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/ff9195c0-7445-4f75-bf56-0e9d3567196d)
+![74](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/f9aca95c-ecb0-4e8c-a874-1c805a370a09)
+
 
 
                 - We can get to know the details of the inverter by hovering the mouse cursor over it and pressing 's' on the keyboard. 
@@ -782,14 +836,16 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
                  
 ### L9) Lab steps to create std cell layout and extract spice netlist
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/2d94dc13-23e4-4fba-be19-c7b4ce650e60)
+![75](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/caa74ddb-bd3f-440e-8612-1849835f5bc3)
+
 
 
                 - DRC error can be veiwed on the tkcon
                 - To extract Spice Netlist we perform the following steps in the tkcon window:
 
+![76](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/f124ab89-887d-4169-9c28-b64b6ae2c105)
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/93bac30d-c8a1-4445-afed-ffe79c083150)
+
 
 
 
@@ -800,30 +856,31 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
                 - We can see that a sky130_inv.spice file will be created
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/72bccd1d-53f6-4576-9d5e-1495bd6b2173)
-
+![77](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/39c22427-1595-46c6-9545-b255889ecd84)
 
 ## 3) SKY130 TECH FILE LABS
 
 ### L1) Lab steps to create final SPICE deck using Sky130 tech
                - To start off we look at the minimum value of the layout window
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/3348cb27-20ec-41cd-8cb7-6ca935e4cf47)
+![78](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/9320e4eb-c8ac-4331-990c-388995fb004d)
+
 
 
                -  We can use 'g' on the keyboard to activate the grid and after selecting a grid by right clicking on the mouse, we type box in tkcon window to check the 
                   minimum value of the layout window
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/e51c812f-17b3-4aec-9494-a7ca47789b0b)
+![79](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/cd058989-6588-4e30-aa47-54c3240794e1)
+
 
 ### L2) Lab steps to characterize inverter using sky130 model files
                - Next we need to open the spice file using the command
                         > gedit sky130_inv.spice
                - We need to configure it to the above specifications.
                - Characterize Inverter using Sky130 Models
-               
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/47956882-ed55-49c0-b44d-c74b9b35bd90)
+
+![80](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/3fa50420-0420-4905-8d0a-742d989402de)
 
                - We now plot the graph for output vs input sweeping the time.
                - We first use the command
@@ -832,21 +889,26 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
                         > plot y vs time a
                - The following graph will be displayed
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/c84ab36b-f69f-4522-ae24-0e991cdcb186)
+![81](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/3dc48d44-85af-4574-b181-b1f7b378cf4e)
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/15043af9-98b3-4240-9e95-3bab51d89998)
+
+![82](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/8f82f8ac-c9e1-4d2e-a28d-6d33eb6d6c6b)
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/7253702f-ef83-4dee-be43-8836d566c4fd)
+
+![83](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/6a372b9b-f74a-4353-be7d-5ec6d7a5befa)
+
 
 #### Rise Time -> time taken to rise from 20% to 80% of the max value -> 2.25075e-09 - 2.184e-09 = 0.006675e-09 s.
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/a2bbacc2-2fc3-4a0d-a479-83a7c0389344)
+![84](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/92298000-aa22-4eec-acaa-7977edcd3ebc)
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/0e30da76-0999-4ab1-a3f6-9f7984f4a64a)
+
+![85](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/8a36ff52-6eee-4849-8e2e-81a63f887e8f)
+
 
 #### Propogation Delay/Cell Rise Delay -> 2.21379e-09 - 2.15e-09 = 0.06379e-09 s.
 
@@ -860,11 +922,13 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
                        > tar xfz drc_tests.tgz 
                - Check the files inside it using ls command
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/a3efcb42-3468-44a8-ba79-b0a972615736)
+![86](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/63c281c7-9b8d-4d3a-8aa9-c81a047286d9)
 
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/8a72b6d9-47e0-4232-be72-5e1cb4bc6610)
+
+![87](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/0b551da5-973d-4b91-87d4-2174b065bc4b)
+
     
      
     
@@ -873,22 +937,25 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
             - To open the software we type
                  > magic -d XR
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/c5c111f9-de69-4615-852c-320067d29161)
+![88](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/dd1f6fd5-e4a2-4f03-a963-2d64ff16a995)
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/f1f51fc8-8a43-4ca4-8610-e834870977c3)
+
+![89](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/42855e38-be5c-41c2-a45a-fea26582b959)
+
 
             - Selct M3 by clicking left an right button in the mouse , select an area M3
             - And then tpe this command in the tkcon window It shows a DRC error 
                  > drc why
                    
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/7af2afdf-0c94-4a7a-9a54-0ee3b8fd16e5)
+![90](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/e6d8eb36-7660-43a9-afc6-8b4ac0c4764d)
+
 
             - To add contact cuts to metal3, first select an area using left and right click. Then hovering 
                 over the m3contact we click middle mouse button.
             - To check the black boxes inside this, Type the following command 
                  > cif see VIA2
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/c2aee3f7-f35d-439b-a8c7-492aff5a56ba)
+![91](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/c4ef0d76-3d2a-4bfe-81af-38d530a54724)
 
 
 
@@ -898,7 +965,8 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
        - There will a diff between the spacing of poly.9 
        - In order to over come this we need to sort the DRC error
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/c1065d5c-547e-40c7-84e6-08c7689d1994)
+![92](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/331f2d98-0a4e-400d-8d29-41c2f8ff5863)
+
 
        - There is a DRC error in the poly.mag file in 'poly.9'.
        - Open the sky130A.tech file in the editor and make the following changes
@@ -910,16 +978,19 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
              > spacing npres allpolynonres 480 touching_illegal \
                      "poly.resistor spacing to N-tap < %d (poly.9)"
               
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/c1ea1ff1-9c76-44ba-b674-517ca947dcc6)
+![93](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/8a237891-b5e6-490c-a0b5-16e2e7053cae)
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/8b6b7bc1-aa00-49ca-8a53-526dd57b0b5b)
+
+![94](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/c2e2b280-4145-49c4-93b3-844316aa82a8)
+
 
       - Now open the tkcon window and type 
             > tech load sky130A.tech
             > drc check 
       - Now we can see that the DRC eroor will be solved 
       
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/03a0b4ee-1598-4c77-b36c-3b104fe7c919)
+![95](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/4075e2cb-8c64-4334-90fb-f4cd79858fcd)
+
   
 
 ### L8) Lab challenge exercise to describe DRC error as geometrical construct
@@ -930,19 +1001,22 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
            > cif see nwell_missing
      - The following window appears
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/4e033c6d-d5f7-4d5c-94af-cd5bff63ae19)
+![96](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/54c4e8fd-ada5-485c-a8e4-f6d80ecfb530)
+
 
 
 ### L9) Lab challenge to find missing or incorrect rules and fix them
        - Add nsubstratencontact somwhere into the nwell
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/bdda61a6-cdb9-4604-a666-ab2900f6e4a5)
+![97](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/ec71af56-04e6-4351-9fe0-661dfc67b7e3)
+
       
        - And then make these changes in the editor file
           > cifmaxwidth nwell_untapped 0 bend_illegal \
               "Nwell missing tap (nwell.4)"
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/b6cb691f-3c9c-4e1f-a57f-49a0d99f3961)
+![98](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/b22df32c-0a89-4b8f-b738-7695d77b3e69)
+
 
        - type the following commands in the editor file
           > templayer nwell_tapped
@@ -950,14 +1024,13 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
           > templayer nwell_untapped nwell
             and-not nwell_tapped
           
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/13b35669-46d9-4629-a8f4-504bbb9bc8e6)
+
 
           > variants (full)
             cifmaxwidth nwell_untapped 0 bend_illegal \
               "Nwell missing tap (nwell.4)"
             variants *
-            
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/03fc9f68-758a-4258-a3ad-e49cb7d601d7)
+
 
       - Type the following commands in the tkcon window
             > tech load sky130A.tech
@@ -966,8 +1039,7 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
             > drc check
       - The following window will appear
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/344181e2-f267-4dc8-9c81-fa483c743b63)
-
+  
       - Now if we select 'nsubstratencontact' somwhere inside the cell The problrm is solved
        
 ![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/d0590dd2-8681-4c1b-a4cd-3a2c95b719c9)
@@ -1073,7 +1145,50 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
                > add_lefs -src $lefs
         - Run the interactive mode 
 
- ![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/42df38b7-83e5-46dc-bd9f-ce4bc650e118)
+![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/8ffe7b20-d457-4a99-84a9-0f5188025722)
+
+![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/6cf04c38-6989-4132-87e7-4ca2e190ef5c)
+
+![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/68f1a325-8ae7-4b94-865f-8938136c0c1d)
+
+![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/4fefa4c4-77b6-4e45-b0d7-86d7bd3e830b)
+
+- since there is slack, we have to reduce it
+      VLSI engineers will obtain system specifications in the architecture design phase. These specifications will determine a required frequency of operation. To analyze a circuit's 
+      timing performance designers will use static timing analysis tools (STA). When referring to pre clock tree synthesis STA analysis we are mainly concerned with setup timing in regards to a 
+      launch clock. STA will report problems such as worst negative slack (WNS) and total negative slack (TNS). These refer to the worst path delay and total path delay in regards to our setup 
+      timing restraint. Fixing slack violations can be debugged through performing STA analysis with OpenSTA, which is integrated in the OpenLANE tool. To describe these constraints to tools such 
+      as In order to ensure correct operation of these tools two steps must be taken:
+
+           Design configuration files (.conf) - Tool configuration files for the specified design
+           Design Synopsys design constraint (.sdc) files - Industry standard constraints file
+
+     For the design to be complete, the worst negative slack needs to be above or equal to 0. If the slack is outside of this range we can do one of multiple things:
+
+   ### 1) Review our synthesis strategy in OpenLANE
+
+                     - Enalbed CELL_SIZING
+                     - Enabled SYNTH_STRATEGY with parameter as "DELAY 1"
+                     - The synthesis result is :
+
+           - To run the floorplans and placements we typr the following commands
+                > run_floorplan
+                > run_placement
+  
+![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/b805d7ea-354d-4e41-b761-e86cdf57dc20)
+
+
+![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/8e3b333a-35f9-4830-9e18-fa25f2be744f)
+
+
+             - magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def &
+
+
+![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/cf2dec3c-046d-41ee-9e25-a89e53c5b1d7)
+
+
+![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/d50f0c5e-3b2a-4069-aaad-f24e8a395687)
+
 
 
 
