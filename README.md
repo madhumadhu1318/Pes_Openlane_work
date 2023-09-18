@@ -1042,12 +1042,13 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
   
       - Now if we select 'nsubstratencontact' somwhere inside the cell The problrm is solved
        
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/d0590dd2-8681-4c1b-a4cd-3a2c95b719c9)
+![102](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/758d884c-708a-4195-85e1-c7348921f66c)
 
 
 
 
-[Back to COURSE](https://github.com/Vinodkumar8318/Pes_Openlane_work/tree/main#course)
+
+![103](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/d6cb5ecd-1391-4722-96f1-f13c62ad9580)
 
 </details>
 <details>
@@ -1058,16 +1059,19 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
 
 ### Lab challenge to find missing or incorrect rules and fix them
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/7caa9c46-1f7b-4c44-a849-d023b7d3dba9)
+![104](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/fcb28a89-9c7e-41ec-bfa0-b505470df43f)
+
 
        - Converting grid info into Track info
        - Go to openlane directory / sky130_fd_sc_hd 
        - type less tracks.info
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/b5bde9d6-5d95-4452-aec7-138935f5cefb)
+![105](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/e1b1682d-7370-47c2-bd48-8abe88ca673c)
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/be3f5c92-6ef6-4ab2-8493-078e2ca01cc6)
+
+![106](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/5e218b0f-8fe1-4a52-82c3-8f5a3016b173)
+
 
       - Here 1st value indicates the offset and 2nd value indicates the pitch along provided direction
 
@@ -1078,18 +1082,20 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
         - help grid
         - grid 0.46um 0.34um 0.23um 0.17um
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/5a6ae931-fa7f-4dc5-9624-489a53ffe754)
+![107](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/5f677912-5385-410a-bb18-d1a7e43d07e7)
+
 
 
 ### Before grid vs After grid
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/7caa9c46-1f7b-4c44-a849-d023b7d3dba9)
+![108](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/495db0e8-9d90-467d-9e84-4c0c71c08a67)
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/bec49fed-8a12-4cf5-ae15-cb9fb811da01)
+![109](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/96673807-528b-446f-a376-b23afaf9650a)
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/592a608a-8bed-4c5c-b0e2-7abe6cb3a418)
+
+![110](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/4d151fd9-3b73-4e9a-a626-746b0b9d0f78)
 
         - From the above pic, its confirmed that the pins A and Y are at the intersection of X and Y tracks. So the first condition is met.
         - The PR boundary is taking 3 grids on width and 9 grids on height which says that the 2nd condition is also met
@@ -1105,19 +1111,23 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
         - A magic layout opens , In the tkcon window type 
               > lef write
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/f249106d-9204-4870-9122-1c2b5707cbf2)
+![111](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/8c1fb46f-418e-43ba-b3a3-3a228a3b6c2b)
+
 
         - Once this is done lef file should be created in the vsd file
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/a969dff8-b8e6-45fd-9827-7938aaa223fb)
+![112](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/cae8321b-b205-4312-b18f-314be1d50993)
+
 
         - To open the lif file type the below command in the terminal
               > less sky130_vsdinv.lef
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/8b5a5093-f378-4373-b4cf-43decea2ff80)
+![113](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/92be2d05-f18d-4537-90fc-eb4bdd1be1c7)
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/63a7e1f5-e878-48a3-91d3-0430f89a5a85)
+
+![114](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/0f296c68-0c95-471b-be55-41f7e4c9cda6)
+
 
 
 ## STEPS TO INCLUDE NEW STEPS IN THE SYNTHESIS
@@ -1125,16 +1135,19 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
         - Open the picorv32a pwd in the terminal
         - copy the path 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/59c7483e-40b2-4d23-b7c7-123fac3364c7)
+![115](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/dbe0be89-8b83-428b-819c-0eb97a94d561)
+
 
         - Go to the vsdstdcelldesign in the other terminal type 
               > cp sky130_vsdinv.lef /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/722778fc-c141-4d4d-b8f2-793d16a3f0eb)
+![116](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/c8b84237-dd0e-4500-9482-85ef619376ee)
+
 
         - Now if u check in the picorv terminal, the lef file will be copied 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/37de186e-57d2-4d89-a027-99fc34d1544e)
+![117](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/85bf161f-f360-4819-b7fc-2eb1443175ac)
+
 
         - Modify the config.tcl by
              > vim config.tcl
@@ -1145,13 +1158,16 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
                > add_lefs -src $lefs
         - Run the interactive mode 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/8ffe7b20-d457-4a99-84a9-0f5188025722)
+![118](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/42e2335c-dc73-45fe-a67a-c1a4acd42a5a)
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/6cf04c38-6989-4132-87e7-4ca2e190ef5c)
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/68f1a325-8ae7-4b94-865f-8938136c0c1d)
+![119](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/32ee64bc-e550-436f-b514-362cbc3cb752)
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/4fefa4c4-77b6-4e45-b0d7-86d7bd3e830b)
+![120](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/a08b2d1a-cc1e-43fb-901b-65c4a9799da1)
+
+
+![121](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/92194593-b93b-4f63-b72a-2e92551c388e)
+
 
 - since there is slack, we have to reduce it
       VLSI engineers will obtain system specifications in the architecture design phase. These specifications will determine a required frequency of operation. To analyze a circuit's 
@@ -1175,19 +1191,23 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
                 > run_floorplan
                 > run_placement
   
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/b805d7ea-354d-4e41-b761-e86cdf57dc20)
+![122](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/9113f721-e166-4a5a-a0db-0f3c8bac0ffb)
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/8e3b333a-35f9-4830-9e18-fa25f2be744f)
+
+![123](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/d992b5cd-d920-4a80-8053-f8470c11cdc2)
+
 
 
              - magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def &
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/cf2dec3c-046d-41ee-9e25-a89e53c5b1d7)
+
+![124](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/9c69a6d0-e87a-4c3b-80c3-317882afc273)
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/d50f0c5e-3b2a-4069-aaad-f24e8a395687)
+![125](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/943cada0-461e-4bfb-9fff-7c58a8e831b0)
+
 
 
 
@@ -1199,22 +1219,25 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
               - The first one must be in the openlane directory
               - This file is known as the 'pre_sta.conf' file.
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/aeec25c6-c897-4218-be0b-62a048c76a54)
+![126](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/9299e303-9a8a-4e8c-8b40-c55223b7e5be)
 
               - The second is the my_base.sdc file.
               - This should be in the 'src/sky130' directory under the picorv32a directory.
              
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/d73a4a04-6bbf-4010-b7f2-8c3427dd0b12)
+![127](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/aed0195c-a187-4f5c-882f-831d59192a78)
+
 
               - To run tyming analysis we type 
                     > sta pre_sta.conf
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/ac22c1af-3022-4ad5-b5b8-e4427e1bc888)
+![128](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/7c299eac-7a35-4dd4-92a4-5628f06f84c6)
+
 
              - There is a slack violation
              - Settinf MAX_FANOUT value to 4 reduces the slack violation.
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/1a62d227-1a3c-4a71-880d-cf7dd8b45eb6)
+![129](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/af41e233-a2c8-4809-a618-8348c440815b)
+
 
 
 ## Clock Tree Synthesis TritonCTS and Signal Integrity
@@ -1224,7 +1247,8 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
                        > run_cts
                        > New .v is created
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/b1f93411-14b4-4f47-b523-4c1d7eb71913)
+![130](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/b68d2a8c-a190-4de9-9120-e12c4acd60e2)
+
 
 #### Timing Analysis with Real CLocks using OpenSTA
 
@@ -1233,12 +1257,13 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
              - Then we read the .lef file using the command
                     > read_lef /openLANE_flow/designs/picorv32a/runs/16-09_19-58/tmp/merged.lef
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/f59877a7-4736-4229-94c6-305a1b1c0ad6)
+![131](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/28669d99-ddba-4444-8de7-1d04b869ef0a)
+
 
               - Then we read the .def file.
                      > read_def /openLANE_flow/designs/picorv32a/runs/16-09_19-58/results/cts/picorv32a.cts.def
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/4252f6d9-60ca-482c-b9a5-08c817848f84)
+![132](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/5e0ccf49-0b5f-4928-b9c5-1b1c7f30127d)
 
               - Then we type the below commands
                      > write_db pico_cts.db
@@ -1247,21 +1272,24 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
                      > read_liberty -max $::env(LIB_SLOWEST)
                      > read_liberty -max $::env(LIB_FASTEST)
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/9f159716-cc50-4088-904f-9fadb4184353)
+![133](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/eb5bbfd3-fa2b-47ca-b235-365481e94075)
+
 
               - We read the .src file
                     > read_sdc /openLANE_flow/designs/picorv32a/src/sky130/my_base.sdc
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/22e69c85-7822-44ee-a544-fb9cad238a1d)
+![134](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/fe45fec0-c0e4-4f0b-8508-cbb2acc1c9d1)
 
               - We set the clock and then check it
                     > set_propagated_clock [all_clocks]
                     > report_checks -path_delay min_max -format full_clock_expanded -digits 4
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/b23d8d20-7df9-485c-af23-44a2f6fde7ff)
+![135](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/cb8f566a-6018-4d82-af7c-0cc82a360597)
 
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/a0ac65cd-eb98-4df7-8b0d-bd4127d033f8)
+
+![136](https://github.com/madhumadhu1318/Pes_Openlane_work/assets/90201844/6be244ed-1af3-4b89-9bdb-18d656d45db5)
+
 
 
               - We perform it again for the more accurate result
