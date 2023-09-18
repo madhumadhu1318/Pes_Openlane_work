@@ -1005,7 +1005,7 @@ Fall transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
            > cif see nwell_missing
      - The following window appears
 
-![image](https://github.com/Vinodkumar8318/Pes_Openlane_work/assets/142583979/4e033c6d-d5f7-4d5c-94af-cd5bff63ae19)
+
 
 
 ### L9) Lab challenge to find missing or incorrect rules and fix them
